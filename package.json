@@ -7,7 +7,9 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "html-loader": "^1.2.0",
+    "http-proxy-middleware": "^1.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
@@ -18,8 +20,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open --hot --mode development --port $PORT --host 0.0.0.0",
-    "build": "webpack --mode production"
+    "start": "node server.js",
+    "heroku-postbuild": "npm run build",
+    "build": "webpack -p"
   },
   "eslintConfig": {
     "extends": "react-app"
