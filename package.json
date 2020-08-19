@@ -10,6 +10,9 @@
     "html-loader": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "style-loader": "^1.2.1",
     "webpack-dev-server": "^3.11.0"
   },

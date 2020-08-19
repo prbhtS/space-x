@@ -53,9 +53,7 @@
   font-size: 12px;
   padding: 0px;
 }
-.floatLeft {
-  /* float: left; */
-}
+
 .float-left{
     float: left;
 }
@@ -63,6 +61,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-left: -10px;
 }
 .inputStyle {
     display: block;
@@ -121,6 +120,7 @@
 .header {
   color: black;
   float: left;
+  font-size: 12px;
 }
 .filterCard {
   width: 250px;
@@ -172,6 +172,12 @@
   .cardStyle {
     width: 40%;
   }
+  .btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 15px;
+}
 }
 @media only screen and (max-width: 700px) {
   .cardStyle {
