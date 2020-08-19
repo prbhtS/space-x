@@ -2,11 +2,11 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path');
 
 module.exports = {
-  entry : "./src/index.js",
-  output : {
-    path : path.resolve(__dirname, './dist'),
-    filename : "bundle.js",
-    publicPath : "/"
+  entry: "./src/index.js",
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: "bundle.js",
+    publicPath: "/"
   },
   module: {
     rules: [
@@ -48,16 +48,18 @@ module.exports = {
       }
     ]
   },
-  devServer : {
-    historyApiFallback : true, 
+  devServer: {
+    historyApiFallback: true,
+    inline: true,
+    port: process.env.PORT || 8080
   },
-  plugins: [ new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: 'index.html',
-      favicon: './public/favicon.ico'
-    }) 
+  plugins: [new HtmlWebPackPlugin({
+    template: './public/index.html',
+    filename: 'index.html',
+    favicon: './public/favicon.ico'
+  })
   ],
-  
+
   watchOptions: {
     aggregateTimeout: 300,
     poll: 1000
