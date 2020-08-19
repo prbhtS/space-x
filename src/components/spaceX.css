@@ -1,142 +1,180 @@
-#main{
-    padding-left: 25px;   
-    padding-right: 25px;  
-   }
-   .heading{
-       font-size: 24px;
-       color: black;
-       float: left;
-       padding-left: 4%;
-       line-height: 50px;
-       min-height: 50px;
-   }   
-   .imgStyle{
-       height: 200px;
-       width: 100%;
-   }
-   .cardStyle{
-       width: 20%;
-       margin-bottom: 20px;
-       margin-right: 20px;
-   } 
-   .fontStyle{
-       font-size: 15px;
-       margin: 10px;
-   }
-   .flterStyle{
-       float: left;
-   }
+#main {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.heading {
+  font-size: 24px;
+  color: black;
+  float: left;
+  padding-left: 4%;
+  line-height: 50px;
+  min-height: 50px;
+}
+.imgStyle {
+  height: 200px;
+  width: 100%;
+}
+.white-background {
+  background-color: #ffffff;
+}
+.cardStyle {
+  width: 20%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.fontStyle {
+  font-size: 15px;
+  margin: 10px;
+}
+.flterStyle {
+  float: left;
+}
 
-   .no-bold {
-       font-weight: 100;
-   }
+.no-bold {
+  font-weight: 100;
+}
 
-   .label {
-       color: black;
-       padding: 10px 0px;
-       font-size: 12px;
-   }
-   
-   .card {
-       background-color: white;
-       margin-bottom: 25px;
-       max-height: 450px;
-       min-height: 420px;  
-   }
-   .spaceTitle {
-       height: auto;
-       color: blue;
-       float: left;
-       font-size: 12px;
-       padding: 0px;
-   }
-   .floatLeft{ 
-       float: left;
-   }
-   .imageThumbnail {
-       background-color: gray;
-       margin: 15px;
-       height: 200px;
-   }
-   .detailSection {
-    margin: 10px 15px;
-   }
-   .no-padding {
-       padding: 0;
-   }
-   .container { 
-       max-width: 1440px;
-   }
-   .inputStyle{
-       display: block;
-       width: 100% !important;
-       font-size: 12px;
-       line-height: 1.5;
-       color: black;
-       background-clip: padding-box;
-       border: 0px;
-       /* margin-bottom: 10px; */
-       border-bottom: 1px solid #999999;
-       -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-       transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-   }
-   .cardSyle{
-       padding: 10px;
-   }
-   .marginStyle{
-       margin: 10px;
-   }
-   .yearWidth{
-       width:50%
-   }
-   .labelHeader {
-       color: black;
-   }
-   .header {
-       color: black;
-       float: left;
-   }
-   .filterCard{
-   width: 250px;
-   }
-   @media only screen and (max-width: 1500px) { 
-       .filterCard{
-           width: 195px;
-       }
-     }
-     
-   @media only screen and (max-width: 1200px) { 
-       .filterCard{
-           width: 190px;
-       }
-     }
-     @media only screen and (max-width: 700px) { 
-       .filterCard{
-           width: 100%;
-       }
-     }
-     @media only screen and (max-width: 1500px) { 
-       .marginStyle{
-         font-size: 12px;
-       }
-     }
-   @media only screen and (max-width: 1200px) { 
-       .marginStyle{
-         font-size: 10px;
-       }
-     }
-     @media only screen and (max-width: 700px) { 
-       .marginStyle{
-           font-size:15px;
-       }
-     }
-     @media only screen and (max-width: 1200px) { 
-       .cardStyle{
-         width: 40%;
-       }
-     }
-     @media only screen and (max-width: 700px) { 
-       .cardStyle{
-         width: 100%;
-       }
-     }
+.label {
+  color: black;
+  padding: 10px 0px;
+  font-size: 12px;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 25px;
+  max-height: 500px;
+  min-height: 440px;
+}
+.spaceTitle {
+  height: auto;
+  color: blue;
+  /* float: left; */
+  font-size: 12px;
+  padding: 0px;
+}
+.floatLeft {
+  /* float: left; */
+}
+.float-left{
+    float: left;
+}
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.inputStyle {
+    display: block;
+    text-align: center;
+    width: 76% !important;
+    font-size: 12px;
+    line-height: 1.5;
+    color: black;
+    background-clip: padding-box;
+    border: 0px;
+    /* margin-bottom: 10px; */
+    border-bottom: 1px solid #999999;
+    -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.imageThumbnail {
+  background-color: gray;
+  margin: 15px;
+  height: 200px;
+}
+.detailSection {
+  margin: 10px 15px;
+}
+.no-padding {
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+}
+.inputStyle {
+  display: block;
+  width: 100% !important;
+  font-size: 12px;
+  line-height: 1.5;
+  color: black;
+  background-clip: padding-box;
+  border: 0px;
+  /* margin-bottom: 10px; */
+  border-bottom: 1px solid #999999;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.cardSyle {
+  padding: 10px;
+}
+.marginStyle {
+  margin: 10px;
+}
+.yearWidth {
+  width: 50%;
+}
+.labelHeader {
+  color: black;
+}
+.header {
+  color: black;
+  float: left;
+}
+.filterCard {
+  width: 250px;
+}
+@media only screen and (max-width: 1500px) {
+  .filterCard {
+    width: 195px;
+  }
+  .card-padding {
+    padding: 0px 6px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .filterCard {
+    width: 190px;
+  }
+  .card-padding {
+    padding: 0px 6px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .filterCard {
+    width: 100%;
+  }
+  .card-padding {
+    padding: 0px;
+  }
+  .pt-3{
+      padding-top: 3px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .marginStyle {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .marginStyle {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .marginStyle {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .cardStyle {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cardStyle {
+    width: 100%;
+  }
+}
