@@ -6,7 +6,7 @@ export const EachSpacexCard = (props) => {
         <div className="col-sm-12 col-md-3 card-padding" >
             <div className="col-md-12 card no-padding pt-3">
                 <div className="imageThumbnail">
-                    <img src={el.links.mission_patch} className="card-img-top imgStyle" alt="..." />
+                    <img src={el.links.mission_patch_small} className="card-img-top imgStyle" alt="..." />
                 </div>
                 <div className="detailSection">
                     <div className="col-md-12 spaceTitle">
